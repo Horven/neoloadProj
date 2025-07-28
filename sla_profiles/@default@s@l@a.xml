@@ -30,12 +30,12 @@
 <description/>
 <sla-threshold enabled="false" family="PER_RUN" identifier="AVERAGE_REQUEST_RESPONSE_TIME" percent="1" uid="ac9fb959-22f7-442e-880c-1e1897856dea"/>
 <sla-threshold enabled="false" family="PER_RUN" identifier="AVERAGE_PAGE_RESPONSE_TIME" percent="1" uid="41d1ab5b-377c-4b2b-a5ca-61f95638db87">
-<threshold-condition durationKind="NB_OF_TIMES" durationNumber="1" operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="1.0"/>
+<threshold-condition durationKind="NB_OF_TIMES" durationNumber="2" operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="1.0"/>
 <threshold-condition durationKind="NB_OF_TIMES" durationNumber="1" operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="0.8"/>
 </sla-threshold>
 <sla-threshold enabled="true" family="PER_RUN" identifier="AVERAGE_CONTAINER_RESPONSE_TIME" percent="1" uid="83fd5e37-bee5-4c2d-ab38-8a15b74cc4a5">
 <threshold-condition durationKind="NB_OF_TIMES" durationNumber="1" operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="4.0"/>
-<threshold-condition durationKind="NB_OF_TIMES" durationNumber="1" operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="7.0"/>
+<threshold-condition durationKind="NB_OF_TIMES" durationNumber="2" operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="7.0"/>
 </sla-threshold>
 <sla-threshold enabled="false" family="PER_RUN" identifier="PERCENTILE_CONTAINER_RESPONSE_TIME" percent="1" uid="7cab301e-c84d-4bf2-8dd5-812612446d39"/>
 <sla-threshold enabled="false" family="PER_RUN" identifier="AVERAGE_HITS_PER_SECOND" percent="1" uid="6e554b18-8552-4360-8f89-57872558d507"/>
