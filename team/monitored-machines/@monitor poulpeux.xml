@@ -1,0 +1,4 @@
+<monitored-host host-name="Monitor poulpeux" mehost-name="localhost"
+    proxy-id="" uid="Monitor poulpeux">
+    <embedded-action>140b19e7-4523-43d2-8ae0-c4da544abf38</embedded-action>
+</monitored-host>

@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=Poulpeux
+project.version=8.10
+project.original.version=4.2
+product.name=NeoLoad
+product.original.name=
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=
+project.is-open-test-settings-after-upload=true
+project.id=4b0cf160-884a-42ce-9c39-2e75be748017
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=Horven/neoloadProj.git

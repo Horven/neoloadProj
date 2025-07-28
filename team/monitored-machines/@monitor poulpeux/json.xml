@@ -1,0 +1,16 @@
+<connection-json interval="5000" name="json" server-name="Momo poulpeux"
+    server-port="0" uid="140b19e7-4523-43d2-8ae0-c4da544abf38" url="/monitor/cluster">
+    <monitor-category name="root" short-display-name="root">
+        <monitor-category name="nlweb-ncp-client" short-display-name="nlweb-ncp-client">
+            <monitor-category name="0" short-display-name="0">
+                <monitor-json callTime="ON_BENCH" computing="0"
+                    counter-id="b51b66c889b15ea656c7a6a0d64ab81b066cb271"
+                    format="NUMBER"
+                    gui-path="$['nlweb-ncp-client'][0]['threadsCount']/threadsCount"
+                    name="$['nlweb-ncp-client'][0]['threadsCount']:b51b66c889b15ea656c7a6a0d64ab81b066cb271"
+                    path="$['nlweb-ncp-client'][0]['threadsCount']"
+                    sampling="0" short-display-name="threadsCount" unit=""/>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+</connection-json>
